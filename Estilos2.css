@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+#titulo{
+    color: brown;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 30px;
+}
+
+.nav-bar{
+    color: bisque;
+    text-decoration: dashed;
+    font-size: 25px;
+}
+
+.nav-bar:hover{
+    color: brown;
+    font-size: 30px;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+.nav1:hover{
+    background-color: darkkhaki;
+}
+
+h1{
+    font-size: 25px;
+    color: wheat;
+}
+
+div{
+    display: flex;
+    margin-left: 20px;
+}
+
+.h1_1{
+    margin-left: 30px
+}
+
+footer{
+    color: wheat;
+    position: absolute;
+    bottom: 10px;
+}
+
+#TInicio{
+    color: antiquewhite;
+}
+
+#lorem{
+color: bisque;
+background-color: brown;
+}
+

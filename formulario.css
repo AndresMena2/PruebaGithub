@@ -1,0 +1,31 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100vh;
+    background-image: url(./fondo.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#divCard{
+    width: 500px;
+    background-color: rgb(31, 46, 82);
+    position: center;
+    bottom: -2px;
+}
+#navcolor{
+    background-color: cadetblue;
+}
+
+h2{
+    color: rgb(6, 114, 42);
+}
+
+label{
+    color: aliceblue;
+}
+
+h4{
+    color: aliceblue;
+}
