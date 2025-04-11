@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APUESTAS</title>
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/estilos2.css">
+</head>
+<body>
+    <div id="contenedor-navbar"></div>
+    <script>
+        fetch('Componentes/navbar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('contenedor-navbar').innerHTML = data;
+                const css = document.createElement('link');
+                css.rel = 'stylesheet';
+                css.href = 'CSS/navbar.css';
+                document.head.appendChild(css);
+                const js = document.createElement('script');
+                script.src = 'JS/navbar.js';
+                document.body.appendChild(js);
+            });
+    </script>
+</body>
+</html>
